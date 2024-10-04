@@ -1,10 +1,10 @@
 === iyzico WooCommerce ===
-Contributors: iyzico,mehmetselim,sozgat,feyzullahdemir,tarikkamat
-Tags: payment, ecommerce, credit card, checkout woocommerce, iyzico
-Tested up to: 6.6.2
-Stable tag: 3.5.7
-Requires at least: 6.6.2
-Requires PHP: 8.0
+Contributors: iyzico,mehmetselim,sozgat,feyzullahdemir
+Tags: payment, ecommerce, credit card, checkout woocommerce, iyzico, wordpress ecommerce
+Tested up to: 6.4.3
+Stable tag: 3.4.0
+Requires at least: 4.7
+Requires PHP: 5.4
 License: LGPL v3.0
 License URI: https://www.gnu.org/licenses/lgpl-3.0.en.html
 
@@ -36,9 +36,9 @@ Check out some of other advantages of iyzico WooCommerce Modul from below;
 
 
 Requirements
-PHP 8.0 and greater.
+PHP 5.4 and greater.
 cURL
-WooCommerce 9.0.0 requires WordPress 6.6.2+
+WooCommerce 3.5 requires WordPress 3.5+
 
 
 == Installation ==
@@ -58,28 +58,6 @@ Wordpress Marketplace in search "iyzico WooCommerce" and install
 
 == Changelog ==
 
-= 3.5.7 =
-  * Fix : The amount sent must be equal to the total amount of all breakdowns
-  * WooCommerce + Wordpress latest version tested update
-
-= 3.5.6 =
-  * New : Payment Request Log Added iyzico-wocommerce/log_files
-  * Fix : basketItemCategory1 is a mandatory parameter error fixed.
-  * Fix : shippingAddress parameter error fixed.
-  * Fix : BasketItemPrice bug fixed.
-  * WooCommerce + Wordpress latest version tested update
-
-= 3.5.5 =
-  * New : WooCommerce HPOS Support
-  * New : Refund Support
-  * Fix : PHP functions fixed.
-  * Fix : White page error fixed.
-
-= 3.5.2 =
-  * New : WooCommerce HPOS Support
-  * Fix : PHP functions fixed.
-  * Fix : White page error fixed.
-
 = 3.4.0 =
   * New : WooCommerce Blocks Support
   * Fix : PHP end() functions fixed.
@@ -91,21 +69,26 @@ Wordpress Marketplace in search "iyzico WooCommerce" and install
   * Fix : PHP8.1 Null Value
   * WooCommerce + Wordpress latest version tested update
 
+
 = 3.2.4 =
   * PWİ Currency USD
   * WooCommerce + Wordpress latest version tested update
 
+
 = 3.2.3 =
   * Fix : HTTPS CURL BUG
 
+
 = 3.2.1 =
   * Fix: HTTPS method
+
 
 = 3.2.0 =
   * Dev: shopping credit
   * Dev: automatic webhook integration
   * Fix: Failed payment callback
   * Fix: shipping method
+
 
 = 3.1.3 =
   * Dev: Checkout and pwi language
@@ -211,26 +194,6 @@ Wordpress Marketplace in search "iyzico WooCommerce" and install
 == Upgrade Notice ==
 
 == Changelog ==
-
-= 3.5.7 =
-* Fix : The amount sent must be equal to the total amount of all breakdowns
-
-= 3.5.6 =
-* Fix : basketItemCategory1 is a mandatory parameter error fixed.
-* Fix : shippingAddress parameter error fixed.
-* Fix : BasketItemPrice bug fixed.
-* WooCommerce + Wordpress latest version tested update
-
-= 3.5.5 =
-* Fix : Refund Support
-* Fix : High-Performance Order Storage (HPOS)
-* Fix : PHP8.1 Null Value
-* WooCommerce + Wordpress latest version tested update
-
-= 3.5.2 =
-* Fix : High-Performance Order Storage (HPOS)
-* Fix : PHP8.1 Null Value
-* WooCommerce + Wordpress latest version tested update
 
 = 3.2.6 =
 * New : High-Performance Order Storage (HPOS)
