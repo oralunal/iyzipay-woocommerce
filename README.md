@@ -6,7 +6,7 @@
 
 # Requirements
 ------------
-* PHP 8 and greater.
+* PHP 8.2 and greater.
 * cURL
 * WooCommerce 9.0.0+ requires WordPress 6.2.2+
 
