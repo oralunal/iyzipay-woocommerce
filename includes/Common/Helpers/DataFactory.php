@@ -116,7 +116,7 @@ class DataFactory {
 			$shippingItem->setName( 'Shipping' );
 			$shippingItem->setCategory1( 'Shipping' );
 			$shippingItem->setItemType( BasketItemType::PHYSICAL );
-			$shippingPrice = strval( floatval( $order->get_shipping_total() ) + floatval( $order->get_shipping_tax() ) );
+            $shippingPrice = strval( round(floatval( $order->get_shipping_total() ) + floatval( $order->get_shipping_tax() ), 2) );
 			$shippingItem->setPrice( $shippingPrice );
 			$basketItems[] = $shippingItem;
 		}
